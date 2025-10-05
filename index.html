@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prizza</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="home-container">
+      <div class="nav-bar">
+        <div
+          style="
+            display: flex;
+            width: max-content;
+            gap: 12px;
+            align-items: center;
+          "
+        >
+          <h2 class="logo">Prizza</h2>
+          <img
+            src="/public/mute.svg"
+            id="mute-unmute"
+            style="cursor: pointer; height: max-content"
+            onclick="unmute(1)"
+          />
+          <img
+            src="/public/unmute.svg"
+            id="unmute"
+            onclick="unmute(0)"
+            style="cursor: pointer; height: max-content; display: none"
+          />
+        </div>
+        <nav class="nav-desk">
+          <ul>
+            <li class="nav-btn">About</li>
+            <li class="nav-btn" onclick="scrollProject()">Projects</li>
+          </ul>
+        </nav>
+        <nav class="nav-mob">
+          <ul>
+            <li class="nav-btn">
+              <img src="/public/home.svg" alt="" width="18px" height="18px" />
+            </li>
+            <li class="nav-btn" id="scroll-project" onclick="scrollProject()">
+              <img
+                src="/public/project.svg"
+                alt=""
+                width="18px"
+                height="18px"
+              />
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="home-body">
+        <h1>Frontend Enthusiast</h1>
+        <div class="prof-desc">
+          <img
+            style="margin-left: 42px"
+            class="prof-pic"
+            src="1x1.png"
+            alt="prof-pic"
+            width="240px"
+            height="240px"
+          />
+          <div>
+            <div class="p-info">
+              <p>Currently exploring UI/UX and frontend development.</p>
+              <p class="u-line"></p>
+            </div>
+            <!-- <div
+              class="soc-icons"
+              style="gap: 14px; width: 84px; display: flex"
+            >
+              <img src="Vector-1.svg" alt="" />
+              <img src="igicon-v2.svg" alt="" />
+              <img src="Vector-2.svg" alt="" />
+            </div> -->
+            <button class="dl_button">
+              download cv
+              <img src="/public/d-Vector.svg" alt="" height="20" width="20" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <img src="/public/plane-det.svg" class="plane-det" />
+      <img
+        src="/public/tri-detail.svg"
+        class="tri-det"
+        style="position: absolute; bottom: 355px; right: 10vw; z-index: 0"
+      />
+    </div>
+
+    <div class="project-container" id="project-container">
+      <div class="card" data-title="Portfolio" data-tech="HTML, CSS, JS"></div>
+      <div
+        class="card"
+        data-title="Filmstack"
+        data-tech="React + Tailwind"
+      ></div>
+      <div
+        class="card"
+        data-title="Prizzabooth"
+        data-tech="React + Tailwind"
+      ></div>
+
+      <img
+        src="/public/hexa-det.svg"
+        style="position: absolute; top: 15px; right: 3vw"
+        class="hexa-det"
+      />
+      <img
+        src="/public/tri-detail.svg"
+        style="
+          z-index: 0;
+          bottom: 250px;
+          left: 5vw;
+          position: absolute;
+          rotate: -30deg;
+        "
+      />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
