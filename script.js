@@ -72,6 +72,12 @@ function openLink(title) {
   if (title === "Prizzabooth") {
     window.open("https://facebook.com", "_blank");
   }
+  if (title === "AI Agent") {
+    window.open(
+      "https://www.facebook.com/profile.php?id=61581264338267",
+      "_blank"
+    );
+  }
 }
 
 function scrollProject() {

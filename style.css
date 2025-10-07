@@ -172,7 +172,7 @@ ul li:hover {
 .box {
   display: flex;
   flex-direction: column;
-  background: #ffffff;
+  background-color: #ffffff;
   z-index: 1;
 }
 
