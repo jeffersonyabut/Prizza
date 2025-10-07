@@ -66,6 +66,9 @@ document.querySelectorAll(".nav-btn").forEach((el) => {
 });
 
 function openLink(title) {
+  if (title === "Multiplaycation") {
+    window.open("https://jeffersonyabut.github.io/multiplaycation/", "_blank");
+  }
   if (title === "Portfolio") {
     window.open("https://jeffersonyabut.github.io/Prizza/", "_blank");
   }
