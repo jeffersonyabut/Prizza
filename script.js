@@ -1,5 +1,5 @@
-const hover_Seffect = new Audio("/public/Effects/tick.mp3");
-const click_Seffect = new Audio("/public/Effects/click.mp3");
+const hover_Seffect = new Audio("/Prizza/public/Effects/tick.mp3");
+const click_Seffect = new Audio("/Prizza/public/Effects/click.mp3");
 
 function playHoverSound() {
   const viewportWidth = window.innerWidth;
