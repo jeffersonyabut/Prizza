@@ -115,3 +115,13 @@ function unmute(value) {
     click_Seffect.volume = 0;
   }
 }
+
+document.getElementById("fBook").addEventListener("click", () => {
+  hover_Seffect.play();
+  window.open("https://www.facebook.com/jefferson.yabut.52", "_blank");
+});
+
+document.getElementById("ghProfile").addEventListener("click", () => {
+  hover_Seffect.play();
+  window.open("https://github.com/jeffersonyabut", "_blank");
+});
