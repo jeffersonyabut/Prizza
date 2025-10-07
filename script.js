@@ -25,7 +25,7 @@ document.querySelectorAll(".card").forEach((el) => {
   el.innerHTML = `
         <div class="title-bar" style="height: 26px; border: 0">
           <h4>${title}</h4>
-          <img src="/public/link.svg" alt="" />
+          <img src="/Prizza/public/link.svg" alt="" />
         </div>
         <div
           class="thumbnail"
