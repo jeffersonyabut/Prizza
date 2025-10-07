@@ -67,10 +67,13 @@ document.querySelectorAll(".nav-btn").forEach((el) => {
 
 function openLink(title) {
   if (title === "Portfolio") {
-    window.open("https://youtube.com", "_blank");
+    window.open("https://jeffersonyabut.github.io/Prizza/", "_blank");
+  }
+  if (title === "Filmstack") {
+    window.open("https://jeffersonyabut.github.io/Filmstack/", "_blank");
   }
   if (title === "Prizzabooth") {
-    window.open("https://facebook.com", "_blank");
+    alert("Project is On Development");
   }
   if (title === "AI Agent") {
     window.open(
