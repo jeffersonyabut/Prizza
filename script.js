@@ -55,15 +55,15 @@ dl_btn.addEventListener("mouseenter", () => {
   click_Seffect.play();
 });
 
-document.querySelectorAll(".nav-btn").forEach((el) => {
-  el.addEventListener("mouseenter", () => {
-    click_Seffect.play();
-  });
+// document.querySelectorAll(".nav-btn").forEach((el) => {
+//   el.addEventListener("mouseenter", () => {
+//     click_Seffect.play();
+//   });
 
-  el.addEventListener("click", () => {
-    hover_Seffect.play();
-  });
-});
+//   el.addEventListener("click", () => {
+//     hover_Seffect.play();
+//   });
+// });
 
 function openLink(title) {
   if (title === "Multiplaycation") {
@@ -92,39 +92,39 @@ function scrollProject() {
     .scrollIntoView({ behavior: "smooth" });
 }
 
-function downloadCV(filePath) {
-  const link = document.createElement("a");
-  link.href = filePath;
-  link.download = "jefferson_cv.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
+// function downloadCV(filePath) {
+//   const link = document.createElement("a");
+//   link.href = filePath;
+//   link.download = "jefferson_cv.pdf";
+//   document.body.appendChild(link);
+//   link.click();
+//   document.body.removeChild(link);
+// }
 
-function unmute(value) {
-  if (value) {
-    document.getElementById("mute-unmute").style.display = "none";
-    document.getElementById("unmute").style.display = "flex";
+// function unmute(value) {
+//   if (value) {
+//     document.getElementById("mute-unmute").style.display = "none";
+//     document.getElementById("unmute").style.display = "flex";
 
-    hover_Seffect.volume = 1;
-    click_Seffect.volume = 1;
-    click_Seffect.play();
-  }
+//     hover_Seffect.volume = 1;
+//     click_Seffect.volume = 1;
+//     click_Seffect.play();
+//   }
 
-  if (!value) {
-    document.getElementById("unmute").style.display = "none";
-    document.getElementById("mute-unmute").style.display = "flex";
-    hover_Seffect.volume = 0;
-    click_Seffect.volume = 0;
-  }
-}
+//   if (!value) {
+//     document.getElementById("unmute").style.display = "none";
+//     document.getElementById("mute-unmute").style.display = "flex";
+//     hover_Seffect.volume = 0;
+//     click_Seffect.volume = 0;
+//   }
+// }
 
-document.getElementById("fBook").addEventListener("click", () => {
-  hover_Seffect.play();
-  window.open("https://www.facebook.com/jefferson.yabut.52", "_blank");
-});
+// document.getElementById("fBook").addEventListener("click", () => {
+//   hover_Seffect.play();
+//   window.open("https://www.facebook.com/jefferson.yabut.52", "_blank");
+// });
 
-document.getElementById("ghProfile").addEventListener("click", () => {
-  hover_Seffect.play();
-  window.open("https://github.com/jeffersonyabut", "_blank");
-});
+// document.getElementById("ghProfile").addEventListener("click", () => {
+//   hover_Seffect.play();
+//   window.open("https://github.com/jeffersonyabut", "_blank");
+// });
