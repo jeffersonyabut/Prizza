@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #1b3a4b;
+  background-color: #001523;
 }
 
 .home-container {
@@ -138,12 +138,12 @@ ul li:hover {
   width: 100%;
 }
 
-/* .tri-det {
+.tri-det {
   position: absolute;
   bottom: 368px;
-  right: 314px;
-  z-index: 0; */
-/* } */
+  left: 268px;
+  z-index: 0;
+}
 
 .plane-det {
   position: absolute;
