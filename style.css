@@ -1,10 +1,11 @@
 :root {
-  --primary: #5d5d5d;
+  --primary: #f9fafb;
 }
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #1b3a4b;
 }
 
 .home-container {
@@ -55,9 +56,9 @@ body {
 }
 
 .logo {
-  font-family: Manrope;
+  font-family: Inter;
   color: var(--primary);
-  font-size: 22px;
+  font-size: 52px;
 }
 
 nav ul {
@@ -82,13 +83,15 @@ ul li:hover {
 
 .u-line {
   opacity: 60%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #f9fafb;
   width: 183px;
   color: var(--primary);
 }
 
 .dl_button {
-  padding: 8px 6px;
+  border: 2px solid transparent;
+  color: #f4f4f4;
+  padding: 5px 4px;
   margin-top: 36px;
   width: 150px;
   height: 35px;
@@ -99,8 +102,17 @@ ul li:hover {
   font-size: 14px;
   font-weight: 700;
   opacity: 60%;
-  border: 0px;
-  background: linear-gradient(to bottom right, #0057a9, #72bbff);
+  background:
+    linear-gradient(to bottom right, #0057a9, #72bbff) padding-box,
+    linear-gradient(
+        165deg,
+        #0057a9 0%,
+        #f4f4f4 25%,
+        #0057a9 50%,
+        #f4f4f4 25%,
+        #0057a9 100%
+      )
+      border-box;
   background-size: 200% 200%;
 }
 
