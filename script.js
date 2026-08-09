@@ -81,7 +81,7 @@ function openLink(title) {
   if (title === "AI Agent") {
     window.open(
       "https://www.facebook.com/profile.php?id=61581264338267",
-      "_blank"
+      "_blank",
     );
   }
 }
