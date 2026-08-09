@@ -25,7 +25,7 @@ document.querySelectorAll(".card").forEach((el) => {
   el.innerHTML = `
         <div class="title-bar" style="height: 26px; border: 0">
           <h4>${title}</h4>
-          <img src="/Prizza/public/link.svg" alt="" />
+          <img src="/prizza/public/link.svg" alt="" />
         </div>
         <div
           class="thumbnail"
@@ -70,7 +70,7 @@ function openLink(title) {
     window.open("https://jeffersonyabut.github.io/multiplaycation/", "_blank");
   }
   if (title === "Portfolio") {
-    window.open("https://jeffersonyabut.github.io/Prizza/", "_blank");
+    window.open("https://jeffersonyabut.github.io/prizza/", "_blank");
   }
   if (title === "Filmstack") {
     window.open("https://jeffersonyabut.github.io/Filmstack/", "_blank");
