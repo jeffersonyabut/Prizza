@@ -6,6 +6,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: #001523;
+  z-index: 0;
 }
 
 .home-container {
@@ -226,7 +227,7 @@ ul li:hover {
   animation: move 3s ease-in-out infinite;
 }
 
-.outro-container {
+/* .outro-container {
   width: 100%;
   height: max-content;
   box-sizing: border-box;
@@ -255,7 +256,7 @@ ul li:hover {
 .soc-icons img:hover {
   border-radius: 50%;
   transform: scale(1.1);
-}
+} */
 
 @keyframes move {
   0% {
@@ -350,5 +351,6 @@ ul li:hover {
     justify-content: center;
     align-items: center;
     justify-content: center;
+    z-index: 1;
   }
 }
