@@ -17,14 +17,14 @@ document.querySelectorAll(".card").forEach((el) => {
   const title = el.getAttribute("data-title");
   const tech = el.getAttribute("data-tech");
 
-  console.log("CARD FOUND:", el);
+  // console.log("CARD FOUND:", el);
 
   // el.classList.add("box");
 
   el.innerHTML = `
         <div class="title-bar">
           <h4>${title}</h4>
-          <img src="/prizza/public/link.svg" alt="" />
+          <img src="/prizza/public/link.svg" alt="link" />
         </div>
         <div
           class="thumbnail"
