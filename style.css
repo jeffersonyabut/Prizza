@@ -176,7 +176,7 @@ ul li:hover {
 
 .card {
   background: #0057a9;
-  padding: 14px 14px;
+  padding: 14px;
   border: 2px solid #f4f4f4;
   color: var(--primary);
   width: 342px;
@@ -184,8 +184,10 @@ ul li:hover {
   box-sizing: border-box;
   border-radius: 8px;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
 }
 
 /* .card {
@@ -197,16 +199,18 @@ ul li:hover {
   flex-direction: column;
   z-index: 1;
 } */
-
+/* 
 .box:hover {
   transform: scale(1) translateY(-1.2px);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+} */
 
 .title-bar {
+  width: 85%;
+  box-sizing: border-box;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
   padding: 4px 8px;
 }
 
@@ -235,12 +239,14 @@ ul li:hover {
 } */
 
 .thumbnail {
+  box-sizing: border-box;
+  width: 272px;
   height: 148px;
   padding: 0px 12px;
   border: 1px solid #f4f4f4;
   font-family: Manrope;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   border-radius: 6px;
 }
 
