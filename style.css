@@ -176,7 +176,6 @@ ul li:hover {
 
 .card {
   padding: 14px;
-  border: 2px solid #f4f4f4;
   color: var(--primary);
   width: 342px;
   height: 212px;
@@ -187,6 +186,19 @@ ul li:hover {
   display: flex;
   flex-direction: column;
   z-index: 1;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(125deg, #1f242c 0%, #252a32 35%, #1f242c 60%) padding-box,
+    linear-gradient(
+        155deg,
+        #2a2f38 0%,
+        #f4f4f4 25%,
+        #2a2f38 50%,
+        #f4f4f4 25%,
+        #2a2f38 100%
+      )
+      border-box;
+  background-size: 200% 200%;
 }
 
 .card:hover {

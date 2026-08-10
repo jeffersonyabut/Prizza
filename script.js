@@ -64,11 +64,14 @@ dl_btn.addEventListener("mouseenter", () => {
 // });
 
 function openLink(title) {
+  if (title === "POS + Inventory") {
+    alert("Project is On Development");
+  }
   if (title === "Multiplaycation") {
     window.open("https://jeffersonyabut.github.io/multiplaycation/", "_blank");
   }
   if (title === "Portfolio") {
-    window.open("https://jeffersonyabut.github.io/Prizza/", "_blank");
+    window.open("https://jeffersonyabut.github.io/prizza/", "_blank");
   }
   if (title === "Filmstack") {
     window.open("https://jeffersonyabut.github.io/Filmstack/", "_blank");
@@ -84,11 +87,11 @@ function openLink(title) {
   }
 }
 
-function scrollProject() {
-  document
-    .getElementById("project-container")
-    .scrollIntoView({ behavior: "smooth" });
-}
+// function scrollProject() {
+//   document
+//     .getElementById("project-container")
+//     .scrollIntoView({ behavior: "smooth" });
+// }
 
 // function downloadCV(filePath) {
 //   const link = document.createElement("a");
