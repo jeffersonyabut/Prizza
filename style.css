@@ -20,6 +20,10 @@ body {
   position: relative;
 }
 
+.p-info p {
+  z-index: 1;
+}
+
 .prof-pic {
   border-radius: 50%;
   z-index: 1;
