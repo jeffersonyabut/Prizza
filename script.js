@@ -22,9 +22,11 @@ document.querySelectorAll(".card").forEach((el) => {
   // el.classList.add("box");
 
   el.innerHTML = `
+        <div style="width: 100%; height: 16px; display: flex; justify-content: flex-end; ">
+        <img src="/public/link.svg" alt="link" />
+        </div>      
         <div class="title-bar">
           <h4>${title}</h4>
-          <img src="/prizza/public/link.svg" alt="link" />
         </div>
         <div
           class="thumbnail"
