@@ -32,6 +32,7 @@ body {
   color: var(--primary);
   font-weight: 500px;
   opacity: 60%;
+  z-index: 1;
 }
 
 .home-body h1 {
@@ -173,8 +174,9 @@ ul li:hover {
   justify-content: center;
 }
 
-.project-container .card {
-  border: 1px solid black;
+.card {
+  padding: 14px 14px;
+  border: 2px solid #f4f4f4;
   color: var(--primary);
   width: 342px;
   height: 212px;
@@ -182,6 +184,7 @@ ul li:hover {
   border-radius: 8px;
   align-items: center;
   z-index: 1;
+  gap: 8px;
 }
 
 .card {
@@ -201,11 +204,9 @@ ul li:hover {
 
 .title-bar {
   display: flex;
-  height: 26px;
-  align-items: center;
-  padding: 18px 16px;
-  justify-content: space-between;
-  border: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 24px;
 }
 
 .title-bar h4 {
@@ -217,7 +218,11 @@ ul li:hover {
   font-size: 14px;
 }
 
-.thumbnail {
+/* .thumbnail {
+  border: 1px solid #f4f4f4;
+  width: 50%;
+  height: 148px;
+  align-items: end;
   display: flex;
   padding: 8px 12px;
   opacity: 30%;
@@ -226,6 +231,23 @@ ul li:hover {
   font-weight: 700;
   margin-top: 11px;
   border-radius: 6px;
+} */
+
+.thumbnail {
+  height: 148px;
+  padding: 0px 12px;
+  border: 1px solid #f4f4f4;
+  font-family: Manrope;
+  display: flex;
+  align-items: end;
+  border-radius: 6px;
+}
+
+.thumbnail p {
+  opacity: 30%;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 11px;
 }
 
 .hexa-det {

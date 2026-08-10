@@ -23,15 +23,15 @@ document.querySelectorAll(".card").forEach((el) => {
   el.classList.add("box");
 
   el.innerHTML = `
-        <div class="title-bar" style="height: 26px; border: 0">
+        <div class="title-bar" style="width: 100%;height: 24px; ">
           <h4>${title}</h4>
           <img src="/prizza/public/link.svg" alt="" />
         </div>
         <div
           class="thumbnail"
-          style="width: 314px; height: 148px; align-items: end"
+          style="width: 272px; height: 148px; align-items: end"
         >
-        ${tech}
+        <p>${tech}</p>
         </div>
   `;
 
