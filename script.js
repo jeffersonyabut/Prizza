@@ -8,9 +8,6 @@ function playHoverSound() {
     hover_Seffect.muted = true;
     hover_Seffect.volume = 0;
     click_Seffect.volume = 0;
-
-    document.getElementById("mute-unmute").style.display = "none";
-    document.getElementById("unmute").style.display = "none";
   }
 }
 
@@ -19,6 +16,8 @@ playHoverSound();
 document.querySelectorAll(".card").forEach((el) => {
   const title = el.getAttribute("data-title");
   const tech = el.getAttribute("data-tech");
+
+  console.log("CARD FOUND:", el);
 
   // el.classList.add("box");
 

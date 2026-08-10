@@ -175,7 +175,6 @@ ul li:hover {
 }
 
 .card {
-  background: #0057a9;
   padding: 14px;
   border: 2px solid #f4f4f4;
   color: var(--primary);
