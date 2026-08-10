@@ -18,7 +18,6 @@ body {
   gap: 180px;
   align-items: center;
   position: relative;
-  z-index: 10;
 }
 
 .prof-pic {
@@ -33,7 +32,7 @@ body {
   color: var(--primary);
   font-weight: 500px;
   opacity: 60%;
-  z-index: 1;
+  z-index: 10;
 }
 
 .home-body h1 {
@@ -145,6 +144,7 @@ ul li:hover {
   position: absolute;
   bottom: 368px;
   left: 268px;
+  z-index: 0;
 }
 
 .plane-det {
@@ -402,6 +402,5 @@ ul li:hover {
     justify-content: center;
     align-items: center;
     justify-content: center;
-    z-index: 1;
   }
 }
