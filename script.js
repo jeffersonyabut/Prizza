@@ -66,6 +66,9 @@ dl_btn.addEventListener("mouseenter", () => {
 // });
 
 function openLink(title) {
+  if (title === "Anonmsg") {
+    window.open("https://jeffersonyabut.github.io/Anonmsg/", "_blank");
+  }
   if (title === "POS + Inventory") {
     alert("Project is On Development");
   }
