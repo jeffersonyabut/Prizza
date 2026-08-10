@@ -20,16 +20,16 @@ document.querySelectorAll(".card").forEach((el) => {
   const title = el.getAttribute("data-title");
   const tech = el.getAttribute("data-tech");
 
-  el.classList.add("box");
+  // el.classList.add("box");
 
   el.innerHTML = `
-        <div class="title-bar" style="width: 100%;height: 24px; ">
+        <div class="title-bar" ">
           <h4>${title}</h4>
           <img src="/prizza/public/link.svg" alt="" />
         </div>
         <div
           class="thumbnail"
-          style="width: 272px; height: 148px; align-items: end"
+          style="width: 272px; height: 148px; align-items: end; margin-top: 6px"
         >
         <p>${tech}</p>
         </div>

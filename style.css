@@ -175,6 +175,7 @@ ul li:hover {
 }
 
 .card {
+  background: #0057a9;
   padding: 14px 14px;
   border: 2px solid #f4f4f4;
   color: var(--primary);
@@ -183,19 +184,19 @@ ul li:hover {
   box-sizing: border-box;
   border-radius: 8px;
   align-items: center;
-  z-index: 1;
+  justify-content: center;
   gap: 8px;
 }
 
-.card {
+/* .card {
   background: transparent;
-}
+} */
 
-.box {
+/* .box {
   display: flex;
   flex-direction: column;
   z-index: 1;
-}
+} */
 
 .box:hover {
   transform: scale(1) translateY(-1.2px);
@@ -206,7 +207,7 @@ ul li:hover {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-left: 24px;
+  padding: 4px 8px;
 }
 
 .title-bar h4 {
