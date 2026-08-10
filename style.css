@@ -173,7 +173,7 @@ ul li:hover {
   justify-content: center;
 }
 
-.project-container div {
+.project-container .card {
   border: 1px solid black;
   color: var(--primary);
   width: 342px;
@@ -182,6 +182,10 @@ ul li:hover {
   border-radius: 8px;
   align-items: center;
   z-index: 1;
+}
+
+.card {
+  background: transparent;
 }
 
 .box {
@@ -312,7 +316,7 @@ ul li:hover {
 
 @media screen and (max-width: 745px) {
   .project-container {
-    grid-template-columns: repeat(1, 342px);
+    grid-template-columns: minmax(0, 342px);
   }
 }
 
