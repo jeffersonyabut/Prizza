@@ -18,6 +18,7 @@ body {
   gap: 180px;
   align-items: center;
   position: relative;
+  z-index: 10;
 }
 
 .prof-pic {
@@ -144,7 +145,6 @@ ul li:hover {
   position: absolute;
   bottom: 368px;
   left: 268px;
-  z-index: 0;
 }
 
 .plane-det {
@@ -182,7 +182,7 @@ ul li:hover {
   box-sizing: border-box;
   border-radius: 16px;
   align-items: center;
-  gap: 4px;
+  gap: 12px;
   display: flex;
   flex-direction: column;
   z-index: 1;
@@ -222,7 +222,7 @@ ul li:hover {
 } */
 
 .title-bar {
-  width: 85%;
+  width: 88%;
   box-sizing: border-box;
   display: flex;
   align-items: center;

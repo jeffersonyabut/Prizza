@@ -23,7 +23,6 @@ document.querySelectorAll(".card").forEach((el) => {
 
   el.innerHTML = `
         <div style="width: 100%; height: 16px; display: flex; justify-content: flex-end; ">
-
         <img src="/prizza/public/link.svg" alt="link" />
         </div>      
         <div class="title-bar">
